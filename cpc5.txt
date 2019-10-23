@@ -1,0 +1,50 @@
+Задание 16.1
+Результатом: 01234123452345634567
+
+Задание 16.2
+Результат: 002036
+
+Задание 16.3
+Результат: 01512
+
+Задание 16.5
+for(int i =2; i < 99;i++)
+        {
+            String str1 = "";
+            for(int j =10; j < 99;j++)
+            {
+                if(j%i==0)
+                str1 += j+" ";
+            }
+            System.out.println(str1);
+        }
+
+Задание 16.6
+
+Задание 16.7.
+int п=75;
+for(int i=1; i < n; i++)
+System.out.print(i+": ");
+for (int ј=1; j<i/2; j++)
+if (i%j==0)
+System.оut.print(j+" ");
+System.out.prinln();
+}
+}
+
+Задание 16.8.
+int n = 75;
+        for(int i = 1; i <= n;i++)
+        {
+            System.out.print(i+": Сумма делителей=");
+            int sum = 0;
+            for(int j = 1; j <= i/2;j++)
+            {
+                if(i%j==0)
+                {
+                    sum += j;
+                }
+            }
+            System.out.print(sum+" ");
+        }
+        System.out.println();
